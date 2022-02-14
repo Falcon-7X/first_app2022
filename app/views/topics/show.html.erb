@@ -3,8 +3,8 @@
 <%= render @topic %>
 
 <div>
-  <%= link_to "Edit this topic", edit_topic_path(@topic) %> |
-  <%= link_to "Back to topics", topics_path %>
+  <%= link_to "编辑主题", edit_topic_path(@topic) %> |
+  <%= link_to "返回", topics_path %>
 
-  <%= button_to "Destroy this topic", @topic, method: :delete %>
+  <%= button_to "删除主题", @topic, method: :delete %>
 </div>
