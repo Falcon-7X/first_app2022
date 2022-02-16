@@ -5,6 +5,10 @@
   </p>
 
   <p>
+    Posted <%= time_tag topic.created_at, "data-local": "time-ago" %>
+  </p>
+
+  <p>
     <strong>内容:</strong>
     <%= topic.description %>
   </p>
