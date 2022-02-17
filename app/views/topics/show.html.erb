@@ -1,6 +1,7 @@
 <p style="color: green"><%= notice %></p>
 
 <%= render @topic %>
+<%= render "topics/comments", topic: @topic %>
 
 <div>
   <%= link_to "编辑主题", edit_topic_path(@topic) %> |

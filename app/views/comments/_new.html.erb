@@ -1,0 +1,5 @@
+<%= form_with model: [ topic, Comment.new ] do |form| %>
+ 您的评论: <br>
+  <%= form.text_area :description, size: "20x5" %>
+  <%= form.submit %>
+<% end %>
